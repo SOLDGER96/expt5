@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Run') {
             steps {
                 // Run unit tests
                 bat 'java Pract5'
