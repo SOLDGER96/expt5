@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from repository
-                git branch: 'main', url: 'https://github.com/SOLDGER96/expt4.git'
+                git branch: 'main', url: 'https://github.com/SOLDGER96/expt5.git'
             }
         }
 
@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage('Run') {
+        stage('Test') {
             steps {
                 // Run unit tests
                 bat 'java Pract5'
