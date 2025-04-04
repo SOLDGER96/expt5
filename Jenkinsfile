@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from repository
-                git branch: 'main', url: 'https://github.com/Atharv-Bandekar/pract5.git'
+                git branch: 'main', url: 'https://github.com/SOLDGER96/expt4.git'
             }
         }
 
