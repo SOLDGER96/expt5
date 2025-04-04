@@ -12,14 +12,14 @@ pipeline {
         stage('Build') {
             steps {
                 // Clean and build the project using Maven
-                bat 'javac Pract5.java'
+                sh 'javac Pract5.java'
             }
         }
 
         stage('Test') {
             steps {
                 // Run unit tests
-                bat 'java Pract5'
+                sh 'java Pract5'
             }
         }
 
